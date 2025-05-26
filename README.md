@@ -38,6 +38,9 @@
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/tryhackme/default.svg" width="52" height="40" alt="tryhackme logo"  />
 </div>
 
+<!--START_SECTION:badges-->
+<!--END_SECTION:badges-->
+
 ### <div align="center"> Profile Visits </div>
 <div align="center">
   <img src="https://profile-counter.glitch.me/SelikemAB/count.svg?"  />
