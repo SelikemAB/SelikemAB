@@ -38,6 +38,8 @@
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/tryhackme/default.svg" width="52" height="40" alt="tryhackme logo"  />
 </div>
 
+---
+## View my verified badges
 <!--START_SECTION:badges-->
 <!--END_SECTION:badges-->
 
