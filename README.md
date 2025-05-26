@@ -39,9 +39,6 @@
 </div>
 
 ---
-## View my verified badges
-<!--START_SECTION:badges-->
-<!--END_SECTION:badges-->
 
 ### <div align="center"> Profile Visits </div>
 <div align="center">
