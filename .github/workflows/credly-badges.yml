@@ -1,11 +1,17 @@
 name: Update Credly badges
 
-# Set your Credly username once: Settings > Secrets and variables > Actions >
-# Variables > New repository variable  CREDLY_USER = <id from credly.com/users/<id>>
+# Credly profile: https://www.credly.com/users/selikemab/badges
+# (override with a repository variable CREDLY_USER if the username changes)
 on:
   schedule:
     - cron: "17 6 * * 1"   # weekly, Monday 06:17 UTC
   workflow_dispatch:
+  push:                    # populate right after this workflow/script lands on main
+    branches:
+      - main
+    paths:
+      - ".github/workflows/credly-badges.yml"
+      - ".github/scripts/update_credly_badges.py"
 
 permissions:
   contents: write
@@ -23,7 +29,7 @@ jobs:
 
       - name: Refresh badge section in README.md
         env:
-          CREDLY_USER: ${{ vars.CREDLY_USER }}
+          CREDLY_USER: ${{ vars.CREDLY_USER || 'selikemab' }}
         run: python3 .github/scripts/update_credly_badges.py
 
       - name: Commit if changed
@@ -35,4 +41,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -am "chore: update Credly badges"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main

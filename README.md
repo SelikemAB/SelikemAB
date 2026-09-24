@@ -3,6 +3,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/selikemab"><img src="https://img.shields.io/badge/LinkedIn-selikemab-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: selikemab" /></a>
+  <a href="https://www.credly.com/users/selikemab/badges"><img src="https://img.shields.io/badge/Credly-Badges-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly badges" /></a>
   <img src="https://komarev.com/ghpvc/?username=SelikemAB&style=for-the-badge&color=0e75b6&label=Profile+views" alt="Profile views" />
 </p>
 
@@ -32,33 +33,33 @@ Cortex case management, and Shuffle SOAR playbooks for enrichment, automated IP 
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.simpleicons.org/ubuntu/E95420" height="40" alt="Ubuntu" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="40" alt="Windows" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.simpleicons.org/gnubash/4EAA25" height="40" alt="Bash" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="C" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="40" alt="AWS" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="40" alt="NGINX" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original-wordmark.svg" height="40" alt="SSH" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" height="40" alt="Vagrant" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="VS Code" />
-  <img width="12" />
+  <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="40" alt="Slack" />
 </p>
 
@@ -75,17 +76,17 @@ Cortex case management, and Shuffle SOAR playbooks for enrichment, automated IP 
 
 <!-- Filled automatically by .github/workflows/credly-badges.yml from your Credly profile. -->
 <!--START_SECTION:credly-->
-<p><em>Credly badges will appear here after the first run of the <code>Update Credly badges</code> workflow.</em></p>
+<p><em>Badges load automatically after merge.</em> <a href="https://www.credly.com/users/selikemab/badges">View all on Credly</a></p>
 <!--END_SECTION:credly-->
 
 ## 📊 GitHub stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SelikemAB&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SelikemAB&show_icons=true&theme=github_dark&hide_border=true" height="165" alt="GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SelikemAB&layout=compact&theme=github_dark&hide_border=true" height="165" alt="Top languages" />
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=SelikemAB&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
+  <img src="https://streak-stats.demolab.com/?user=SelikemAB&theme=dark&hide_border=true" alt="GitHub contribution streak" />
 </p>
 
 <p align="center">
