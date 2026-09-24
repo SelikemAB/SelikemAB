@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.jpg" width="100%" alt="Robot holding a mirror that reflects a crowd: Selikem's profile banner" />
+</p>
+
 <h1 align="center">Hi, I'm Selikem 👋</h1>
 <h3 align="center">Blue Team · Cybersecurity · Cloud</h3>
 
