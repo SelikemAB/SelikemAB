@@ -16,6 +16,7 @@ Usage:
   build_profile_svg.py --from-json data.json render from saved data (offline)
 """
 import argparse
+import base64
 import datetime
 import html
 import json
@@ -294,6 +295,16 @@ def projects(data, cfg):
     return [by_name[n] for n in order[:3]]
 
 
+def load_avatar(cfg):
+    """Embed the portrait as a data URI (GitHub blocks external files in SVGs)."""
+    path = cfg.get("avatar")
+    if not path or not os.path.exists(path):
+        return None
+    mime = "image/png" if path.lower().endswith(".png") else "image/jpeg"
+    with open(path, "rb") as fh:
+        return f"data:{mime};base64," + base64.b64encode(fh.read()).decode()
+
+
 def build_svg(cfg, data):
     rnd = random.Random(cfg["username"])  # stable starfield between runs
     parts, y = [], 0
@@ -312,12 +323,30 @@ def build_svg(cfg, data):
     parts.append(stars)
     cx = W / 2
     name_size = 64 if len(cfg["name"]) <= 9 else 48
-    parts.append(f'<text x="{cx}" y="128" text-anchor="middle" fill="{C["text"]}" font-size="{name_size}" '
-                 f'font-weight="800" letter-spacing="{name_size * 0.28:.0f}" filter="url(#soft)">{esc(cfg["name"])}</text>')
-    parts.append(label(cx, 170, cfg["title"], C["cyan"], 14, "middle", 6))
-    parts.append(label(cx, 212, cfg["subtitle"], C["muted"], 12, "middle", 4))
-    parts.append(label(cx, 238, cfg["focus"], C["dim"], 10.5, "middle", 3))
-    parts.append(label(cx, 266, cfg["url"], "#334155", 10, "middle", 2))
+    spacing = round(name_size * 0.28)
+    avatar = load_avatar(cfg)
+    if avatar:
+        # portrait + name side by side, centred as one group
+        d, gap = 104, 30
+        name_w = text_width(cfg["name"], name_size, spacing, True) - spacing  # no trailing gap
+        start = (W - (d + gap + name_w)) / 2
+        ax, ay = start + d / 2, 106
+        parts.append(f'<circle cx="{ax:.1f}" cy="{ay}" r="{d/2 + 9}" fill="url(#halo)"/>')
+        parts.append(f'<circle cx="{ax:.1f}" cy="{ay}" r="{d/2}" fill="{C["bg"]}" fill-opacity=".55"/>')
+        parts.append(f'<image href="{avatar}" x="{ax - d/2:.1f}" y="{ay - d/2}" width="{d}" height="{d}" '
+                     f'clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice"/>')
+        parts.append(f'<circle class="ring" cx="{ax:.1f}" cy="{ay}" r="{d/2 + 3}" fill="none" stroke="url(#ring)" stroke-width="2.2"/>')
+        avatar_clip = f'<clipPath id="avatar-clip"><circle cx="{ax:.1f}" cy="{ay}" r="{d/2}"/></clipPath>'
+        name_x, anchor = start + d + gap, "start"
+    else:
+        avatar_clip, name_x, anchor = "", cx, "middle"
+    parts.append(f'<text x="{name_x:.1f}" y="128" text-anchor="{anchor}" fill="{C["text"]}" font-size="{name_size}" '
+                 f'font-weight="800" letter-spacing="{spacing}" filter="url(#soft)">{esc(cfg["name"])}</text>')
+    dy = 16 if avatar else 0  # clear the portrait ring
+    parts.append(label(cx, 170 + dy, cfg["title"], C["cyan"], 14, "middle", 6))
+    parts.append(label(cx, 210 + dy, cfg["subtitle"], C["muted"], 12, "middle", 4))
+    parts.append(label(cx, 236 + dy, cfg["focus"], C["dim"], 10.5, "middle", 3))
+    parts.append(label(cx, 262 + dy, cfg["url"], "#334155", 10, "middle", 2))
     b, m = 14, 26  # corner brackets
     for x0, y0, dx, dy in ((m, m, 1, 1), (W - m, m, -1, 1), (m, hero_h - 6, 1, -1), (W - m, hero_h - 6, -1, -1)):
         parts.append(f'<path d="M{x0} {y0 + dy*b} V{y0} H{x0 + dx*b}" stroke="{C["pink"] if dx > 0 else C["cyan"]}" '
@@ -460,6 +489,9 @@ def build_svg(cfg, data):
   <linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="{C["violet"]}" stop-opacity="0"/><stop offset=".5" stop-color="{C["pink"]}"/><stop offset="1" stop-color="{C["cyan"]}" stop-opacity="0"/></linearGradient>
   <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151830"/><stop offset="1" stop-color="#0c0e1a"/></linearGradient>
   <filter id="soft" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feColorMatrix in="b" values="0 0 0 0 0.75  0 0 0 0 0.6  0 0 0 0 1  0 0 0 .55 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="halo"><stop offset=".72" stop-color="{C["cyan"]}" stop-opacity=".18"/><stop offset="1" stop-color="{C["violet"]}" stop-opacity="0"/></radialGradient>
+  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{C["pink"]}"/><stop offset=".5" stop-color="{C["violet"]}"/><stop offset="1" stop-color="{C["cyan"]}"/></linearGradient>
+  {avatar_clip}
   <clipPath id="frame"><rect x="0" y="0" width="{W}" height="{H}" rx="20"/></clipPath>
 </defs>'''
     style = f'''<style>
@@ -467,10 +499,11 @@ def build_svg(cfg, data):
   .glow {{ animation: drift 14s ease-in-out infinite alternate; transform-origin: center; transform-box: fill-box; }}
   .tw {{ animation: tw 6s ease-in-out infinite; }}
   .hot {{ animation: hot 3.2s ease-in-out infinite; }}
+  .ring {{ animation: hot 5s ease-in-out infinite; }}
   @keyframes drift {{ from {{ opacity: .75; transform: scale(1); }} to {{ opacity: 1; transform: scale(1.12); }} }}
   @keyframes tw {{ 0%,100% {{ opacity: .15; }} 50% {{ opacity: .9; }} }}
   @keyframes hot {{ 0%,100% {{ opacity: 1; }} 50% {{ opacity: .55; }} }}
-  @media (prefers-reduced-motion: reduce) {{ .glow, .tw, .hot {{ animation: none; }} }}
+  @media (prefers-reduced-motion: reduce) {{ .glow, .tw, .hot, .ring {{ animation: none; }} }}
 </style>'''
     background = f'''<g clip-path="url(#frame)">
   <rect width="{W}" height="{H}" fill="{C["bg"]}"/>
