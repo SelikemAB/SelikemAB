@@ -434,7 +434,8 @@ def build_svg(cfg, data):
             parts.append(f'<rect x="{x:.1f}" y="{y}" width="{cw:.1f}" height="{ch}" rx="14" fill="url(#card)" stroke="{C["line2"]}"/>')
             title = r["name"] if text_width(r["name"], 17, 0, True) < cw - 36 else r["name"][:18] + "…"
             parts.append(f'<text x="{x + 18:.1f}" y="{y + 36}" fill="{C["text"]}" font-size="17" font-weight="800">{esc(title)}</text>')
-            for j, line in enumerate(wrap(r["description"] or "No description yet.", 12, cw - 36, 3)):
+            desc = cfg.get("descriptions", {}).get(r["name"]) or r["description"] or "No description yet."
+            for j, line in enumerate(wrap(desc, 12, cw - 36, 3)):
                 parts.append(f'<text x="{x + 18:.1f}" y="{y + 62 + j * 17}" fill="{C["muted"]}" font-size="12">{esc(line)}</text>')
             parts.append(f'<line x1="{x + 18:.1f}" y1="{y + ch - 40}" x2="{x + cw - 18:.1f}" y2="{y + ch - 40}" stroke="{C["line"]}"/>')
             lang = r.get("language") or "—"
