@@ -1,0 +1,25 @@
+{
+  "username": "SelikemAB",
+  "credly_user": "selikemab",
+  "name": "SELIKEM",
+  "title": "BLUE TEAM · CYBERSECURITY · CLOUD",
+  "subtitle": "SOC OPERATIONS | DETECTION ENGINEERING",
+  "focus": "SIEM · THREAT INTEL · INCIDENT RESPONSE · AWS SECURITY",
+  "url": "github.com/SelikemAB",
+  "pills": [
+    {"label": "Wazuh", "tone": "cyan"},
+    {"label": "MISP", "tone": "pink"},
+    {"label": "TheHive", "tone": "gold"},
+    {"label": "Cortex", "tone": "blue"},
+    {"label": "Shuffle", "tone": "pink"},
+    {"label": "Python", "tone": "cyan"},
+    {"label": "Bash", "tone": "blue"},
+    {"label": "Docker", "tone": "cyan"},
+    {"label": "AWS", "tone": "gold"},
+    {"label": "Linux", "tone": "blue"}
+  ],
+  "featured": ["Wazuh"],
+  "exclude_repos": ["SelikemAB"],
+  "exclude_languages": [],
+  "footer": "SELIKEM · BLUE TEAM OPERATIONS · DEFEND · DETECT · RESPOND"
+}

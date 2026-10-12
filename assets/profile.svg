@@ -1,0 +1,503 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1205" viewBox="0 0 880 1205" role="img" aria-labelledby="t">
+<title id="t">SELIKEM - BLUE TEAM · CYBERSECURITY · CLOUD</title>
+<defs>
+  <radialGradient id="g1"><stop offset="0" stop-color="#7c3aed" stop-opacity=".55"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g2"><stop offset="0" stop-color="#be185d" stop-opacity=".45"/><stop offset="1" stop-color="#be185d" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g3"><stop offset="0" stop-color="#0f766e" stop-opacity=".5"/><stop offset="1" stop-color="#0f766e" stop-opacity="0"/></radialGradient>
+  <linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed" stop-opacity="0"/><stop offset=".5" stop-color="#f472b6"/><stop offset="1" stop-color="#67e8f9" stop-opacity="0"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151830"/><stop offset="1" stop-color="#0c0e1a"/></linearGradient>
+  <filter id="soft" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feColorMatrix in="b" values="0 0 0 0 0.75  0 0 0 0 0.6  0 0 0 0 1  0 0 0 .55 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="frame"><rect x="0" y="0" width="880" height="1205" rx="20"/></clipPath>
+</defs>
+<style>
+  text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+  .glow { animation: drift 14s ease-in-out infinite alternate; transform-origin: center; transform-box: fill-box; }
+  .tw { animation: tw 6s ease-in-out infinite; }
+  .hot { animation: hot 3.2s ease-in-out infinite; }
+  @keyframes drift { from { opacity: .75; transform: scale(1); } to { opacity: 1; transform: scale(1.12); } }
+  @keyframes tw { 0%,100% { opacity: .15; } 50% { opacity: .9; } }
+  @keyframes hot { 0%,100% { opacity: 1; } 50% { opacity: .55; } }
+  @media (prefers-reduced-motion: reduce) { .glow, .tw, .hot { animation: none; } }
+</style>
+<g clip-path="url(#frame)">
+  <rect width="880" height="1205" fill="#0a0b14"/>
+  <ellipse class="glow" cx="190" cy="120" rx="300" ry="190" fill="url(#g1)"/>
+  <ellipse class="glow" style="animation-delay:-5s" cx="470" cy="70" rx="260" ry="170" fill="url(#g2)"/>
+  <ellipse class="glow" style="animation-delay:-9s" cx="720" cy="190" rx="280" ry="190" fill="url(#g3)"/>
+  <ellipse class="glow" style="animation-delay:-3s" cx="440" cy="600" rx="380" ry="160" fill="url(#g1)" opacity=".5"/>
+  <ellipse class="glow" style="animation-delay:-7s" cx="760" cy="800" rx="260" ry="160" fill="url(#g2)" opacity=".45"/>
+<circle class="tw" style="animation-delay:4.7s" cx="78" cy="45" r="1" fill="#fff" opacity="0.73"/><circle class="tw" style="animation-delay:1.4s" cx="825" cy="157" r="1" fill="#fff" opacity="0.68"/><circle class="tw" style="animation-delay:3.8s" cx="98" cy="127" r="0.8" fill="#fff" opacity="0.53"/><circle class="tw" style="animation-delay:4.2s" cx="181" cy="37" r="1.6" fill="#fff" opacity="0.34"/><circle class="tw" style="animation-delay:5.9s" cx="621" cy="38" r="0.8" fill="#fff" opacity="0.66"/><circle class="tw" style="animation-delay:3.5s" cx="796" cy="279" r="1.6" fill="#fff" opacity="0.73"/><circle class="tw" style="animation-delay:5.1s" cx="94" cy="83" r="1.2" fill="#fff" opacity="0.39"/><circle class="tw" style="animation-delay:3.5s" cx="823" cy="226" r="0.8" fill="#fff" opacity="0.80"/><circle class="tw" style="animation-delay:0.1s" cx="46" cy="135" r="1.6" fill="#fff" opacity="0.43"/><circle class="tw" style="animation-delay:1.9s" cx="48" cy="227" r="1.2" fill="#fff" opacity="0.44"/><circle class="tw" style="animation-delay:2.7s" cx="139" cy="192" r="0.8" fill="#fff" opacity="0.70"/><circle class="tw" style="animation-delay:0.0s" cx="857" cy="265" r="1.2" fill="#fff" opacity="0.74"/><circle class="tw" style="animation-delay:3.0s" cx="45" cy="107" r="1.6" fill="#fff" opacity="0.39"/><circle class="tw" style="animation-delay:1.8s" cx="273" cy="50" r="1.6" fill="#fff" opacity="0.60"/><circle class="tw" style="animation-delay:1.6s" cx="666" cy="62" r="1" fill="#fff" opacity="0.45"/><circle class="tw" style="animation-delay:4.1s" cx="739" cy="212" r="1.2" fill="#fff" opacity="0.52"/><circle class="tw" style="animation-delay:4.0s" cx="94" cy="200" r="0.8" fill="#fff" opacity="0.27"/><circle class="tw" style="animation-delay:5.0s" cx="744" cy="227" r="1.6" fill="#fff" opacity="0.68"/><circle class="tw" style="animation-delay:0.1s" cx="740" cy="45" r="0.8" fill="#fff" opacity="0.74"/><circle class="tw" style="animation-delay:1.0s" cx="835" cy="151" r="1.6" fill="#fff" opacity="0.34"/><circle class="tw" style="animation-delay:3.3s" cx="859" cy="101" r="1.2" fill="#fff" opacity="0.30"/><circle class="tw" style="animation-delay:4.5s" cx="537" cy="30" r="1.6" fill="#fff" opacity="0.56"/><circle class="tw" style="animation-delay:2.3s" cx="475" cy="287" r="1.6" fill="#fff" opacity="0.80"/><circle class="tw" style="animation-delay:3.9s" cx="402" cy="34" r="0.8" fill="#fff" opacity="0.76"/><circle class="tw" style="animation-delay:1.7s" cx="814" cy="215" r="0.8" fill="#fff" opacity="0.34"/><circle class="tw" style="animation-delay:3.2s" cx="712" cy="65" r="0.8" fill="#fff" opacity="0.52"/><circle class="tw" style="animation-delay:1.0s" cx="274" cy="21" r="0.8" fill="#fff" opacity="0.75"/><circle class="tw" style="animation-delay:6.0s" cx="830" cy="112" r="1.6" fill="#fff" opacity="0.80"/><circle class="tw" style="animation-delay:2.6s" cx="746" cy="59" r="1.2" fill="#fff" opacity="0.35"/><circle class="tw" style="animation-delay:3.3s" cx="23" cy="229" r="1" fill="#fff" opacity="0.66"/><circle class="tw" style="animation-delay:5.7s" cx="768" cy="22" r="1.6" fill="#fff" opacity="0.78"/><circle class="tw" style="animation-delay:2.3s" cx="831" cy="119" r="1.6" fill="#fff" opacity="0.53"/><circle class="tw" style="animation-delay:5.4s" cx="145" cy="80" r="1.6" fill="#fff" opacity="0.38"/><circle class="tw" style="animation-delay:4.7s" cx="761" cy="147" r="1.2" fill="#fff" opacity="0.48"/><circle class="tw" style="animation-delay:4.2s" cx="26" cy="26" r="1.2" fill="#fff" opacity="0.55"/><circle class="tw" style="animation-delay:5.9s" cx="399" cy="299" r="0.8" fill="#fff" opacity="0.74"/><circle class="tw" style="animation-delay:3.2s" cx="355" cy="36" r="1.6" fill="#fff" opacity="0.48"/><circle class="tw" style="animation-delay:3.5s" cx="385" cy="49" r="1.6" fill="#fff" opacity="0.78"/><circle class="tw" style="animation-delay:3.6s" cx="858" cy="88" r="1.6" fill="#fff" opacity="0.29"/><circle class="tw" style="animation-delay:2.0s" cx="420" cy="44" r="0.8" fill="#fff" opacity="0.76"/><circle class="tw" style="animation-delay:1.2s" cx="152" cy="68" r="0.8" fill="#fff" opacity="0.36"/><circle class="tw" style="animation-delay:2.2s" cx="810" cy="281" r="1.6" fill="#fff" opacity="0.46"/><circle class="tw" style="animation-delay:0.1s" cx="834" cy="56" r="0.8" fill="#fff" opacity="0.39"/><circle class="tw" style="animation-delay:5.4s" cx="97" cy="225" r="1" fill="#fff" opacity="0.41"/><circle class="tw" style="animation-delay:3.8s" cx="733" cy="46" r="1.6" fill="#fff" opacity="0.32"/><circle class="tw" style="animation-delay:4.7s" cx="60" cy="217" r="0.8" fill="#fff" opacity="0.69"/>
+<text x="440.0" y="128" text-anchor="middle" fill="#f8fafc" font-size="64" font-weight="800" letter-spacing="18" filter="url(#soft)">SELIKEM</text>
+<text x="440.0" y="170.0" fill="#67e8f9" font-size="14" font-weight="700" letter-spacing="6" text-anchor="middle" opacity="1.0">BLUE TEAM · CYBERSECURITY · CLOUD</text>
+<text x="440.0" y="212.0" fill="#94a3b8" font-size="12" font-weight="700" letter-spacing="4" text-anchor="middle" opacity="1.0">SOC OPERATIONS | DETECTION ENGINEERING</text>
+<text x="440.0" y="238.0" fill="#475569" font-size="10.5" font-weight="700" letter-spacing="3" text-anchor="middle" opacity="1.0">SIEM · THREAT INTEL · INCIDENT RESPONSE · AWS SECURITY</text>
+<text x="440.0" y="266.0" fill="#334155" font-size="10" font-weight="700" letter-spacing="2" text-anchor="middle" opacity="1.0">github.com/SelikemAB</text>
+<path d="M26 40 V26 H40" stroke="#f472b6" stroke-width="1.6" fill="none" opacity=".8"/>
+<path d="M854 40 V26 H840" stroke="#67e8f9" stroke-width="1.6" fill="none" opacity=".8"/>
+<path d="M26 280 V294 H40" stroke="#f472b6" stroke-width="1.6" fill="none" opacity=".8"/>
+<path d="M854 280 V294 H840" stroke="#67e8f9" stroke-width="1.6" fill="none" opacity=".8"/>
+<line x1="40" y1="318" x2="840" y2="318" stroke="#ffffff14"/>
+<rect x="229.5" y="335" width="71.6" height="28" rx="14" fill="#ffffff06" stroke="#67e8f9" stroke-opacity=".35"/>
+<text x="265.3" y="353" text-anchor="middle" fill="#67e8f9" font-size="12" font-weight="700" letter-spacing=".6">Wazuh</text>
+<rect x="311.1" y="335" width="68.7" height="28" rx="14" fill="#ffffff06" stroke="#f472b6" stroke-opacity=".35"/>
+<text x="345.5" y="353" text-anchor="middle" fill="#f472b6" font-size="12" font-weight="700" letter-spacing=".6">MISP</text>
+<rect x="389.9" y="335" width="82.7" height="28" rx="14" fill="#ffffff06" stroke="#fbbf24" stroke-opacity=".35"/>
+<text x="431.2" y="353" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="700" letter-spacing=".6">TheHive</text>
+<rect x="482.6" y="335" width="76.7" height="28" rx="14" fill="#ffffff06" stroke="#60a5fa" stroke-opacity=".35"/>
+<text x="521.0" y="353" text-anchor="middle" fill="#60a5fa" font-size="12" font-weight="700" letter-spacing=".6">Cortex</text>
+<rect x="569.3" y="335" width="81.2" height="28" rx="14" fill="#ffffff06" stroke="#f472b6" stroke-opacity=".35"/>
+<text x="609.9" y="353" text-anchor="middle" fill="#f472b6" font-size="12" font-weight="700" letter-spacing=".6">Shuffle</text>
+<rect x="249.5" y="375" width="76.7" height="28" rx="14" fill="#ffffff06" stroke="#67e8f9" stroke-opacity=".35"/>
+<text x="287.9" y="393" text-anchor="middle" fill="#67e8f9" font-size="12" font-weight="700" letter-spacing=".6">Python</text>
+<rect x="336.3" y="375" width="61.7" height="28" rx="14" fill="#ffffff06" stroke="#60a5fa" stroke-opacity=".35"/>
+<text x="367.1" y="393" text-anchor="middle" fill="#60a5fa" font-size="12" font-weight="700" letter-spacing=".6">Bash</text>
+<rect x="407.9" y="375" width="76.7" height="28" rx="14" fill="#ffffff06" stroke="#67e8f9" stroke-opacity=".35"/>
+<text x="446.3" y="393" text-anchor="middle" fill="#67e8f9" font-size="12" font-weight="700" letter-spacing=".6">Docker</text>
+<rect x="494.7" y="375" width="59.7" height="28" rx="14" fill="#ffffff06" stroke="#fbbf24" stroke-opacity=".35"/>
+<text x="524.5" y="393" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="700" letter-spacing=".6">AWS</text>
+<rect x="564.3" y="375" width="66.1" height="28" rx="14" fill="#ffffff06" stroke="#60a5fa" stroke-opacity=".35"/>
+<text x="597.4" y="393" text-anchor="middle" fill="#60a5fa" font-size="12" font-weight="700" letter-spacing=".6">Linux</text>
+<line x1="40" y1="436" x2="840" y2="436" stroke="#ffffff14"/>
+<text x="140.0" y="498" text-anchor="middle" fill="#f8fafc" font-size="38" font-weight="800">19</text>
+<text x="140.0" y="522.0" fill="#60a5fa" font-size="10" font-weight="700" letter-spacing="3.5" text-anchor="middle" opacity="1.0">REPOS</text>
+<text x="340.0" y="498" text-anchor="middle" fill="#f8fafc" font-size="38" font-weight="800">3</text>
+<text x="340.0" y="522.0" fill="#fbbf24" font-size="10" font-weight="700" letter-spacing="3.5" text-anchor="middle" opacity="1.0">STARS</text>
+<text x="540.0" y="498" text-anchor="middle" fill="#f8fafc" font-size="38" font-weight="800">13</text>
+<text x="540.0" y="522.0" fill="#67e8f9" font-size="10" font-weight="700" letter-spacing="3.5" text-anchor="middle" opacity="1.0">COMMITS · 1Y</text>
+<text x="740.0" y="498" text-anchor="middle" fill="#f8fafc" font-size="38" font-weight="800">10</text>
+<text x="740.0" y="522.0" fill="#f472b6" font-size="10" font-weight="700" letter-spacing="3.5" text-anchor="middle" opacity="1.0">BADGES</text>
+<rect x="100" y="538" width="680" height="1.5" fill="url(#beam)" opacity=".7"/>
+<line x1="40" y1="560" x2="840" y2="560" stroke="#ffffff14"/>
+<text x="40.0" y="600.0" fill="#67e8f9" font-size="11" font-weight="700" letter-spacing="5" text-anchor="start" opacity="1.0">STACK ANALYTICS</text>
+<rect x="40" y="622" width="800" height="10" rx="5" fill="#ffffff0d"/>
+<clipPath id="bar"><rect x="40" y="622" width="800" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">
+<rect x="40.0" y="622" width="311.8" height="10" fill="#b2b2b2"/>
+<rect x="353.8" y="622" width="180.1" height="10" fill="#3572A5"/>
+<rect x="535.9" y="622" width="87.8" height="10" fill="#e34c26"/>
+<rect x="625.7" y="622" width="80.1" height="10" fill="#89e051"/>
+<rect x="707.8" y="622" width="64.7" height="10" fill="#baa3d1"/>
+<rect x="774.5" y="622" width="20.7" height="10" fill="#f0c040"/>
+<rect x="797.2" y="622" width="18.7" height="10" fill="#f1e05a"/>
+<rect x="817.9" y="622" width="9.7" height="10" fill="#be9596"/>
+<rect x="829.7" y="622" width="6.5" height="10" fill="#00ADD8"/>
+<rect x="838.2" y="622" width="1.0" height="10" fill="#334155"/>
+</g>
+<circle cx="45.0" cy="658" r="4.5" fill="#b2b2b2"/>
+<text x="56.0" y="662" fill="#f8fafc" font-size="12.5" font-weight="700">C<tspan fill="#475569" font-weight="600" font-size="11"> 39%</tspan></text>
+<circle cx="205.0" cy="658" r="4.5" fill="#3572A5"/>
+<text x="216.0" y="662" fill="#f8fafc" font-size="12.5" font-weight="700">Python<tspan fill="#475569" font-weight="600" font-size="11"> 23%</tspan></text>
+<circle cx="365.0" cy="658" r="4.5" fill="#e34c26"/>
+<text x="376.0" y="662" fill="#f8fafc" font-size="12.5" font-weight="700">HTML<tspan fill="#475569" font-weight="600" font-size="11"> 11%</tspan></text>
+<circle cx="525.0" cy="658" r="4.5" fill="#89e051"/>
+<text x="536.0" y="662" fill="#f8fafc" font-size="12.5" font-weight="700">Shell<tspan fill="#475569" font-weight="600" font-size="11"> 10%</tspan></text>
+<circle cx="685.0" cy="658" r="4.5" fill="#baa3d1"/>
+<text x="696.0" y="662" fill="#f8fafc" font-size="12.5" font-weight="700">CSS<tspan fill="#475569" font-weight="600" font-size="11"> 8%</tspan></text>
+<circle cx="45.0" cy="686" r="4.5" fill="#f0c040"/>
+<text x="56.0" y="690" fill="#f8fafc" font-size="12.5" font-weight="700">Smarty<tspan fill="#475569" font-weight="600" font-size="11"> 3%</tspan></text>
+<circle cx="205.0" cy="686" r="4.5" fill="#f1e05a"/>
+<text x="216.0" y="690" fill="#f8fafc" font-size="12.5" font-weight="700">JavaScript<tspan fill="#475569" font-weight="600" font-size="11"> 3%</tspan></text>
+<circle cx="365.0" cy="686" r="4.5" fill="#be9596"/>
+<text x="376.0" y="690" fill="#f8fafc" font-size="12.5" font-weight="700">Ruby<tspan fill="#475569" font-weight="600" font-size="11"> 1%</tspan></text>
+<circle cx="525.0" cy="686" r="4.5" fill="#00ADD8"/>
+<text x="536.0" y="690" fill="#f8fafc" font-size="12.5" font-weight="700">Go Template<tspan fill="#475569" font-weight="600" font-size="11"> 1%</tspan></text>
+<circle cx="685.0" cy="686" r="4.5" fill="#334155"/>
+<text x="696.0" y="690" fill="#f8fafc" font-size="12.5" font-weight="700">Other<tspan fill="#475569" font-weight="600" font-size="11"> &lt;1%</tspan></text>
+<line x1="40" y1="716" x2="840" y2="716" stroke="#ffffff14"/>
+<text x="40.0" y="756.0" fill="#67e8f9" font-size="11" font-weight="700" letter-spacing="5" text-anchor="start" opacity="1.0">ACTIVITY PULSE</text>
+<text x="840" y="756" text-anchor="end" fill="#94a3b8" font-size="11.5" font-weight="700">19 contributions · last year</text>
+<rect x="40.0" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-12: 0</title></rect>
+<rect x="40.0" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-13: 0</title></rect>
+<rect x="40.0" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-14: 0</title></rect>
+<rect x="40.0" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-15: 0</title></rect>
+<rect x="40.0" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-16: 0</title></rect>
+<rect x="40.0" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-17: 0</title></rect>
+<rect x="40.0" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-18: 0</title></rect>
+<rect x="55.1" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-19: 0</title></rect>
+<rect x="55.1" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-20: 0</title></rect>
+<rect x="55.1" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-21: 0</title></rect>
+<rect x="55.1" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-22: 0</title></rect>
+<rect x="55.1" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-23: 0</title></rect>
+<rect x="55.1" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-24: 0</title></rect>
+<rect x="55.1" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-25: 0</title></rect>
+<rect x="70.3" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-26: 0</title></rect>
+<rect x="70.3" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-27: 0</title></rect>
+<rect x="70.3" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-28: 0</title></rect>
+<rect x="70.3" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-29: 0</title></rect>
+<rect x="70.3" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-30: 0</title></rect>
+<rect x="70.3" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-10-31: 0</title></rect>
+<rect x="70.3" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-01: 0</title></rect>
+<rect x="85.4" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-02: 0</title></rect>
+<rect x="85.4" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-03: 0</title></rect>
+<rect x="85.4" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-04: 0</title></rect>
+<rect x="85.4" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-05: 0</title></rect>
+<rect x="85.4" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-06: 0</title></rect>
+<rect x="85.4" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-07: 0</title></rect>
+<rect x="85.4" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-08: 0</title></rect>
+<rect x="100.6" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-09: 0</title></rect>
+<rect x="100.6" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-10: 0</title></rect>
+<rect x="100.6" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-11: 0</title></rect>
+<rect x="100.6" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-12: 0</title></rect>
+<rect x="100.6" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-13: 0</title></rect>
+<rect x="100.6" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-14: 0</title></rect>
+<rect x="100.6" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-15: 0</title></rect>
+<rect x="115.7" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-16: 0</title></rect>
+<rect x="115.7" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-17: 0</title></rect>
+<rect x="115.7" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-18: 0</title></rect>
+<rect x="115.7" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-19: 0</title></rect>
+<rect x="115.7" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-20: 0</title></rect>
+<rect x="115.7" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-21: 0</title></rect>
+<rect x="115.7" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-22: 0</title></rect>
+<rect x="130.8" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-23: 0</title></rect>
+<rect x="130.8" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-24: 0</title></rect>
+<rect x="130.8" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-25: 0</title></rect>
+<rect x="130.8" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-26: 0</title></rect>
+<rect x="130.8" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-27: 0</title></rect>
+<rect x="130.8" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-28: 0</title></rect>
+<rect x="130.8" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-29: 0</title></rect>
+<rect x="146.0" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-11-30: 0</title></rect>
+<rect x="146.0" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-01: 0</title></rect>
+<rect x="146.0" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-02: 0</title></rect>
+<rect x="146.0" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-03: 0</title></rect>
+<rect x="146.0" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-04: 0</title></rect>
+<rect x="146.0" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-05: 0</title></rect>
+<rect x="146.0" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-06: 0</title></rect>
+<rect x="161.1" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-07: 0</title></rect>
+<rect x="161.1" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-08: 0</title></rect>
+<rect x="161.1" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-09: 0</title></rect>
+<rect x="161.1" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-10: 0</title></rect>
+<rect x="161.1" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-11: 0</title></rect>
+<rect x="161.1" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-12: 0</title></rect>
+<rect x="161.1" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-13: 0</title></rect>
+<rect x="176.3" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-14: 0</title></rect>
+<rect x="176.3" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-15: 0</title></rect>
+<rect x="176.3" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-16: 0</title></rect>
+<rect x="176.3" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-17: 0</title></rect>
+<rect x="176.3" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-18: 0</title></rect>
+<rect x="176.3" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-19: 0</title></rect>
+<rect x="176.3" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-20: 0</title></rect>
+<rect x="191.4" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-21: 0</title></rect>
+<rect x="191.4" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-22: 0</title></rect>
+<rect x="191.4" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-23: 0</title></rect>
+<rect x="191.4" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-24: 0</title></rect>
+<rect x="191.4" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-25: 0</title></rect>
+<rect x="191.4" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-26: 0</title></rect>
+<rect x="191.4" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-27: 0</title></rect>
+<rect x="206.5" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-28: 0</title></rect>
+<rect x="206.5" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-29: 0</title></rect>
+<rect x="206.5" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-30: 0</title></rect>
+<rect x="206.5" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2025-12-31: 0</title></rect>
+<rect x="206.5" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-01: 0</title></rect>
+<rect x="206.5" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-02: 0</title></rect>
+<rect x="206.5" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-03: 0</title></rect>
+<rect x="221.7" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-04: 0</title></rect>
+<rect x="221.7" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-05: 0</title></rect>
+<rect x="221.7" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-06: 0</title></rect>
+<rect x="221.7" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-07: 0</title></rect>
+<rect x="221.7" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-08: 0</title></rect>
+<rect x="221.7" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-09: 0</title></rect>
+<rect x="221.7" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-10: 0</title></rect>
+<rect x="236.8" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-11: 0</title></rect>
+<rect x="236.8" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-12: 0</title></rect>
+<rect x="236.8" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-13: 0</title></rect>
+<rect x="236.8" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-14: 0</title></rect>
+<rect x="236.8" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-15: 0</title></rect>
+<rect x="236.8" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-16: 0</title></rect>
+<rect x="236.8" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-17: 0</title></rect>
+<rect x="252.0" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-18: 0</title></rect>
+<rect x="252.0" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-19: 0</title></rect>
+<rect x="252.0" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-20: 0</title></rect>
+<rect x="252.0" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-21: 0</title></rect>
+<rect x="252.0" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-22: 0</title></rect>
+<rect x="252.0" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-23: 0</title></rect>
+<rect x="252.0" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-24: 0</title></rect>
+<rect x="267.1" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-25: 0</title></rect>
+<rect x="267.1" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-26: 0</title></rect>
+<rect x="267.1" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-27: 0</title></rect>
+<rect x="267.1" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-28: 0</title></rect>
+<rect x="267.1" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-29: 0</title></rect>
+<rect x="267.1" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-30: 0</title></rect>
+<rect x="267.1" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-01-31: 0</title></rect>
+<rect x="282.2" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-01: 0</title></rect>
+<rect x="282.2" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-02: 0</title></rect>
+<rect x="282.2" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-03: 0</title></rect>
+<rect x="282.2" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-04: 0</title></rect>
+<rect x="282.2" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-05: 0</title></rect>
+<rect x="282.2" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-06: 0</title></rect>
+<rect x="282.2" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-07: 0</title></rect>
+<rect x="297.4" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-08: 0</title></rect>
+<rect x="297.4" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-09: 0</title></rect>
+<rect x="297.4" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-10: 0</title></rect>
+<rect x="297.4" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-11: 0</title></rect>
+<rect x="297.4" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-12: 0</title></rect>
+<rect x="297.4" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-13: 0</title></rect>
+<rect x="297.4" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-14: 0</title></rect>
+<rect x="312.5" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-15: 0</title></rect>
+<rect x="312.5" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-16: 0</title></rect>
+<rect x="312.5" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-17: 0</title></rect>
+<rect x="312.5" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-18: 0</title></rect>
+<rect x="312.5" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-19: 0</title></rect>
+<rect x="312.5" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-20: 0</title></rect>
+<rect x="312.5" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-21: 0</title></rect>
+<rect x="327.7" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-22: 0</title></rect>
+<rect x="327.7" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-23: 0</title></rect>
+<rect x="327.7" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-24: 0</title></rect>
+<rect x="327.7" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-25: 0</title></rect>
+<rect x="327.7" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-26: 0</title></rect>
+<rect x="327.7" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-27: 0</title></rect>
+<rect x="327.7" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-02-28: 0</title></rect>
+<rect x="342.8" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-01: 0</title></rect>
+<rect x="342.8" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-02: 0</title></rect>
+<rect x="342.8" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-03: 0</title></rect>
+<rect x="342.8" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-04: 0</title></rect>
+<rect x="342.8" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-05: 0</title></rect>
+<rect x="342.8" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-06: 0</title></rect>
+<rect x="342.8" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-07: 0</title></rect>
+<rect x="357.9" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-08: 0</title></rect>
+<rect x="357.9" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-09: 0</title></rect>
+<rect x="357.9" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-10: 0</title></rect>
+<rect x="357.9" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-11: 0</title></rect>
+<rect x="357.9" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-12: 0</title></rect>
+<rect x="357.9" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-13: 0</title></rect>
+<rect x="357.9" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-14: 0</title></rect>
+<rect x="373.1" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-15: 0</title></rect>
+<rect x="373.1" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-16: 0</title></rect>
+<rect x="373.1" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-17: 0</title></rect>
+<rect x="373.1" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-18: 0</title></rect>
+<rect x="373.1" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-19: 0</title></rect>
+<rect x="373.1" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-20: 0</title></rect>
+<rect x="373.1" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-21: 0</title></rect>
+<rect x="388.2" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-22: 0</title></rect>
+<rect x="388.2" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-23: 0</title></rect>
+<rect x="388.2" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-24: 0</title></rect>
+<rect x="388.2" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-25: 0</title></rect>
+<rect x="388.2" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-26: 0</title></rect>
+<rect x="388.2" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-27: 0</title></rect>
+<rect x="388.2" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-28: 0</title></rect>
+<rect x="403.4" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-29: 0</title></rect>
+<rect x="403.4" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-30: 0</title></rect>
+<rect x="403.4" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-03-31: 0</title></rect>
+<rect x="403.4" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-01: 0</title></rect>
+<rect x="403.4" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-02: 0</title></rect>
+<rect x="403.4" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-03: 0</title></rect>
+<rect x="403.4" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-04: 0</title></rect>
+<rect x="418.5" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-05: 0</title></rect>
+<rect x="418.5" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-06: 0</title></rect>
+<rect x="418.5" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-07: 0</title></rect>
+<rect x="418.5" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-08: 0</title></rect>
+<rect x="418.5" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-09: 0</title></rect>
+<rect x="418.5" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-10: 0</title></rect>
+<rect x="418.5" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-11: 0</title></rect>
+<rect x="433.6" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-12: 0</title></rect>
+<rect x="433.6" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-13: 0</title></rect>
+<rect x="433.6" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-14: 0</title></rect>
+<rect x="433.6" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-15: 0</title></rect>
+<rect x="433.6" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-16: 0</title></rect>
+<rect x="433.6" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-17: 0</title></rect>
+<rect x="433.6" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-18: 0</title></rect>
+<rect x="448.8" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-19: 0</title></rect>
+<rect x="448.8" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-20: 0</title></rect>
+<rect x="448.8" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-21: 0</title></rect>
+<rect x="448.8" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-22: 0</title></rect>
+<rect x="448.8" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-23: 0</title></rect>
+<rect x="448.8" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-24: 0</title></rect>
+<rect x="448.8" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-25: 0</title></rect>
+<rect x="463.9" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-26: 0</title></rect>
+<rect x="463.9" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-27: 0</title></rect>
+<rect x="463.9" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-28: 0</title></rect>
+<rect x="463.9" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-29: 0</title></rect>
+<rect x="463.9" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-04-30: 0</title></rect>
+<rect x="463.9" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-01: 0</title></rect>
+<rect x="463.9" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-02: 0</title></rect>
+<rect x="479.0" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-03: 0</title></rect>
+<rect x="479.0" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-04: 0</title></rect>
+<rect x="479.0" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-05: 0</title></rect>
+<rect x="479.0" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-06: 0</title></rect>
+<rect x="479.0" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-07: 0</title></rect>
+<rect x="479.0" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-08: 0</title></rect>
+<rect x="479.0" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-09: 0</title></rect>
+<rect x="494.2" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-10: 0</title></rect>
+<rect x="494.2" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-11: 0</title></rect>
+<rect x="494.2" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-12: 0</title></rect>
+<rect x="494.2" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-13: 0</title></rect>
+<rect x="494.2" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-14: 0</title></rect>
+<rect x="494.2" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-15: 0</title></rect>
+<rect x="494.2" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-16: 0</title></rect>
+<rect x="509.3" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-17: 0</title></rect>
+<rect x="509.3" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-18: 0</title></rect>
+<rect x="509.3" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-19: 0</title></rect>
+<rect x="509.3" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-20: 0</title></rect>
+<rect x="509.3" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-21: 0</title></rect>
+<rect x="509.3" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-22: 0</title></rect>
+<rect x="509.3" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-23: 0</title></rect>
+<rect x="524.5" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-24: 0</title></rect>
+<rect x="524.5" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-25: 0</title></rect>
+<rect x="524.5" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-26: 0</title></rect>
+<rect x="524.5" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-27: 0</title></rect>
+<rect x="524.5" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-28: 0</title></rect>
+<rect x="524.5" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-29: 0</title></rect>
+<rect x="524.5" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-30: 0</title></rect>
+<rect x="539.6" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-05-31: 0</title></rect>
+<rect x="539.6" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-01: 0</title></rect>
+<rect x="539.6" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-02: 0</title></rect>
+<rect x="539.6" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-03: 0</title></rect>
+<rect x="539.6" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-04: 0</title></rect>
+<rect x="539.6" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-05: 0</title></rect>
+<rect x="539.6" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-06: 0</title></rect>
+<rect x="554.7" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-07: 0</title></rect>
+<rect x="554.7" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-08: 0</title></rect>
+<rect x="554.7" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-09: 0</title></rect>
+<rect x="554.7" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-10: 0</title></rect>
+<rect x="554.7" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-11: 0</title></rect>
+<rect x="554.7" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-12: 0</title></rect>
+<rect x="554.7" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-13: 0</title></rect>
+<rect x="569.9" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-14: 0</title></rect>
+<rect x="569.9" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-15: 0</title></rect>
+<rect x="569.9" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-16: 0</title></rect>
+<rect x="569.9" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-17: 0</title></rect>
+<rect x="569.9" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-18: 0</title></rect>
+<rect x="569.9" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-19: 0</title></rect>
+<rect x="569.9" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-20: 0</title></rect>
+<rect x="585.0" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-21: 0</title></rect>
+<rect x="585.0" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-22: 0</title></rect>
+<rect x="585.0" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-23: 0</title></rect>
+<rect x="585.0" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-24: 0</title></rect>
+<rect x="585.0" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-25: 0</title></rect>
+<rect x="585.0" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-26: 0</title></rect>
+<rect x="585.0" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-27: 0</title></rect>
+<rect x="600.2" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-28: 0</title></rect>
+<rect x="600.2" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-29: 0</title></rect>
+<rect x="600.2" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-06-30: 0</title></rect>
+<rect x="600.2" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-01: 0</title></rect>
+<rect x="600.2" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-02: 0</title></rect>
+<rect x="600.2" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-03: 0</title></rect>
+<rect x="600.2" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-04: 0</title></rect>
+<rect x="615.3" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-05: 0</title></rect>
+<rect x="615.3" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-06: 0</title></rect>
+<rect x="615.3" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-07: 0</title></rect>
+<rect x="615.3" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-08: 0</title></rect>
+<rect x="615.3" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-09: 0</title></rect>
+<rect x="615.3" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-10: 0</title></rect>
+<rect x="615.3" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-11: 0</title></rect>
+<rect x="630.4" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-12: 0</title></rect>
+<rect x="630.4" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-13: 0</title></rect>
+<rect x="630.4" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-14: 0</title></rect>
+<rect x="630.4" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-15: 0</title></rect>
+<rect x="630.4" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-16: 0</title></rect>
+<rect x="630.4" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-17: 0</title></rect>
+<rect x="630.4" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-18: 0</title></rect>
+<rect x="645.6" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-19: 0</title></rect>
+<rect x="645.6" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-20: 0</title></rect>
+<rect x="645.6" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-21: 0</title></rect>
+<rect x="645.6" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-22: 0</title></rect>
+<rect x="645.6" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-23: 0</title></rect>
+<rect x="645.6" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-24: 0</title></rect>
+<rect x="645.6" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-25: 0</title></rect>
+<rect x="660.7" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-26: 0</title></rect>
+<rect x="660.7" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-27: 0</title></rect>
+<rect x="660.7" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-28: 0</title></rect>
+<rect x="660.7" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-29: 0</title></rect>
+<rect x="660.7" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-30: 0</title></rect>
+<rect x="660.7" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-07-31: 0</title></rect>
+<rect x="660.7" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-01: 0</title></rect>
+<rect x="675.9" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-02: 0</title></rect>
+<rect x="675.9" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-03: 0</title></rect>
+<rect x="675.9" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-04: 0</title></rect>
+<rect x="675.9" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-05: 0</title></rect>
+<rect x="675.9" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-06: 0</title></rect>
+<rect x="675.9" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-07: 0</title></rect>
+<rect x="675.9" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-08: 0</title></rect>
+<rect x="691.0" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-09: 0</title></rect>
+<rect x="691.0" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-10: 0</title></rect>
+<rect x="691.0" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-11: 0</title></rect>
+<rect x="691.0" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-12: 0</title></rect>
+<rect x="691.0" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-13: 0</title></rect>
+<rect x="691.0" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-14: 0</title></rect>
+<rect x="691.0" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-15: 0</title></rect>
+<rect x="706.1" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-16: 0</title></rect>
+<rect x="706.1" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-17: 0</title></rect>
+<rect x="706.1" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-18: 0</title></rect>
+<rect x="706.1" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-19: 0</title></rect>
+<rect x="706.1" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-20: 0</title></rect>
+<rect x="706.1" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-21: 0</title></rect>
+<rect x="706.1" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-22: 0</title></rect>
+<rect x="721.3" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-23: 0</title></rect>
+<rect x="721.3" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-24: 0</title></rect>
+<rect x="721.3" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-25: 0</title></rect>
+<rect x="721.3" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-26: 0</title></rect>
+<rect x="721.3" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-27: 0</title></rect>
+<rect x="721.3" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-28: 0</title></rect>
+<rect x="721.3" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-29: 0</title></rect>
+<rect x="736.4" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-30: 0</title></rect>
+<rect x="736.4" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-08-31: 0</title></rect>
+<rect x="736.4" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-01: 0</title></rect>
+<rect x="736.4" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-02: 0</title></rect>
+<rect x="736.4" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-03: 0</title></rect>
+<rect x="736.4" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-04: 0</title></rect>
+<rect x="736.4" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-05: 0</title></rect>
+<rect x="751.6" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-06: 0</title></rect>
+<rect x="751.6" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-07: 0</title></rect>
+<rect x="751.6" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-08: 0</title></rect>
+<rect x="751.6" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-09: 0</title></rect>
+<rect x="751.6" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-10: 0</title></rect>
+<rect x="751.6" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-11: 0</title></rect>
+<rect x="751.6" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-12: 0</title></rect>
+<rect x="766.7" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-13: 0</title></rect>
+<rect x="766.7" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-14: 0</title></rect>
+<rect x="766.7" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-15: 0</title></rect>
+<rect x="766.7" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-16: 0</title></rect>
+<rect x="766.7" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-17: 0</title></rect>
+<rect x="766.7" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-18: 0</title></rect>
+<rect x="766.7" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-19: 0</title></rect>
+<rect x="781.8" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-20: 0</title></rect>
+<rect x="781.8" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-21: 0</title></rect>
+<rect x="781.8" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-22: 0</title></rect>
+<rect x="781.8" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-23: 0</title></rect>
+<rect x="781.8" y="834.6" width="12.7" height="12.7" rx="2" fill="#2563eb"><title>2026-09-24: 7</title></rect>
+<rect x="781.8" y="849.7" width="12.7" height="12.7" rx="2" fill="#22d3ee"><title>2026-09-25: 10</title></rect>
+<rect x="781.8" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-26: 0</title></rect>
+<rect x="797.0" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-27: 0</title></rect>
+<rect x="797.0" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-28: 0</title></rect>
+<rect x="797.0" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-29: 0</title></rect>
+<rect x="797.0" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-09-30: 0</title></rect>
+<rect x="797.0" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-10-01: 0</title></rect>
+<rect x="797.0" y="849.7" width="12.7" height="12.7" rx="2" fill="#1e3a8a"><title>2026-10-02: 1</title></rect>
+<rect x="797.0" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-10-03: 0</title></rect>
+<rect x="812.1" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-10-04: 0</title></rect>
+<rect x="812.1" y="789.1" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-10-05: 0</title></rect>
+<rect x="812.1" y="804.3" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-10-06: 0</title></rect>
+<rect x="812.1" y="819.4" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-10-07: 0</title></rect>
+<rect x="812.1" y="834.6" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-10-08: 0</title></rect>
+<rect x="812.1" y="849.7" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-10-09: 0</title></rect>
+<rect x="812.1" y="864.8" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-10-10: 0</title></rect>
+<rect x="827.3" y="774.0" width="12.7" height="12.7" rx="2" fill="#141a2e"><title>2026-10-11: 0</title></rect>
+<rect x="827.3" y="789.1" width="12.7" height="12.7" rx="2" fill="#1e3a8a"><title>2026-10-12: 1</title></rect>
+<line x1="40" y1="901.9773584905661" x2="840" y2="901.9773584905661" stroke="#ffffff14"/>
+<text x="40.0" y="942.0" fill="#67e8f9" font-size="11" font-weight="700" letter-spacing="5" text-anchor="start" opacity="1.0">PRIMARY DEPLOYMENTS</text>
+<rect x="40.0" y="961.9773584905661" width="254.7" height="150" rx="14" fill="url(#card)" stroke="#ffffff22"/>
+<text x="58.0" y="997.9773584905661" fill="#f8fafc" font-size="17" font-weight="800">Wazuh</text>
+<text x="58.0" y="1023.9773584905661" fill="#94a3b8" font-size="12">No description yet.</text>
+<line x1="58.0" y1="1071.977358490566" x2="276.7" y2="1071.977358490566" stroke="#ffffff14"/>
+<circle cx="63.0" cy="1092.977358490566" r="4.5" fill="#3572A5"/>
+<text x="74.0" y="1096.977358490566" fill="#f8fafc" font-size="12" font-weight="700">Python</text>
+<text x="276.7" y="1096.977358490566" text-anchor="end" fill="#475569" font-size="12" font-weight="700">★ 0  ⑂ 0</text>
+<rect x="312.7" y="961.9773584905661" width="254.7" height="150" rx="14" fill="url(#card)" stroke="#ffffff22"/>
+<text x="330.7" y="997.9773584905661" fill="#f8fafc" font-size="17" font-weight="800">alx-pre_course</text>
+<text x="330.7" y="1023.9773584905661" fill="#94a3b8" font-size="12">I&#x27;m now a ALX Student, this is my</text>
+<text x="330.7" y="1040.977358490566" fill="#94a3b8" font-size="12">first repository as a full-stack</text>
+<text x="330.7" y="1057.977358490566" fill="#94a3b8" font-size="12">engineer</text>
+<line x1="330.7" y1="1071.977358490566" x2="549.3" y2="1071.977358490566" stroke="#ffffff14"/>
+<circle cx="335.7" cy="1092.977358490566" r="4.5" fill="#89e051"/>
+<text x="346.7" y="1096.977358490566" fill="#f8fafc" font-size="12" font-weight="700">Shell</text>
+<text x="549.3" y="1096.977358490566" text-anchor="end" fill="#475569" font-size="12" font-weight="700">★ 3  ⑂ 0</text>
+<rect x="585.3" y="961.9773584905661" width="254.7" height="150" rx="14" fill="url(#card)" stroke="#ffffff22"/>
+<text x="603.3" y="997.9773584905661" fill="#f8fafc" font-size="17" font-weight="800">AB-Expressgh</text>
+<text x="603.3" y="1023.9773584905661" fill="#94a3b8" font-size="12">No description yet.</text>
+<line x1="603.3" y1="1071.977358490566" x2="822.0" y2="1071.977358490566" stroke="#ffffff14"/>
+<circle cx="608.3" cy="1092.977358490566" r="4.5" fill="#67e8f9"/>
+<text x="619.3" y="1096.977358490566" fill="#f8fafc" font-size="12" font-weight="700">—</text>
+<text x="822.0" y="1096.977358490566" text-anchor="end" fill="#475569" font-size="12" font-weight="700">★ 0  ⑂ 0</text>
+<text x="440.0" y="1162.0" fill="#334155" font-size="9.5" font-weight="700" letter-spacing="4" text-anchor="middle" opacity="1.0">SELIKEM · BLUE TEAM OPERATIONS · DEFEND · DETECT · RESPOND</text>
+<text x="440.0" y="1179.977358490566" text-anchor="middle" fill="#1e293b" font-size="9" font-weight="600" letter-spacing="2">UPDATED 2026-10-12</text>
+</g>
+<rect x=".5" y=".5" width="879" height="1204" rx="20" fill="none" stroke="#ffffff22"/>
+</svg>
