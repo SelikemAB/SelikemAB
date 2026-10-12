@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SelikemAB&style=flat-square&color=0e75b6&label=Profile+views" alt="Profile views" />
+  <a href="https://github.com/SelikemAB"><img src="https://komarev.com/ghpvc/?username=SelikemAB&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat-square" alt="Profile views" /></a>
 </p>
 
 <!-- assets/profile.svg is regenerated daily by .github/workflows/profile-svg.yml
