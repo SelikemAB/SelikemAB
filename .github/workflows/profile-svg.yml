@@ -1,0 +1,57 @@
+name: Update profile card
+
+# Regenerates assets/profile.svg (stats, languages, activity, projects).
+# Edit text / pills / featured repos in .github/profile/config.json.
+on:
+  schedule:
+    - cron: "23 5 * * *"   # daily, 05:23 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/profile/**"
+      - ".github/scripts/build_profile_svg.py"
+      - ".github/workflows/profile-svg.yml"
+  pull_request:            # preview: commits the real card to the PR branch
+    paths:
+      - ".github/profile/**"
+      - ".github/scripts/build_profile_svg.py"
+      - ".github/workflows/profile-svg.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-svg-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    # PRs from forks get a read-only token; only build previews for same-repo PRs
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Render assets/profile.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/build_profile_svg.py
+
+      - name: Commit if changed
+        env:
+          BRANCH: ${{ github.head_ref || github.ref_name }}
+        run: |
+          git add assets/profile.svg
+          if git diff --cached --quiet; then
+            echo "Profile card unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update profile card"
+          git pull --rebase origin "$BRANCH"
+          git push origin "HEAD:$BRANCH"
