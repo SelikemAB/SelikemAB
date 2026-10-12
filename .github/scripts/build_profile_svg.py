@@ -229,6 +229,19 @@ def wrap(text, size, max_w, max_lines=2):
     return lines
 
 
+def readable(color, fallback):
+    """Lighten GitHub language colours that vanish on the dark background."""
+    m = re.fullmatch(r"#?([0-9a-fA-F]{6})", color or "")
+    if not m:
+        return fallback
+    r, g, b = (int(m.group(1)[i:i + 2], 16) for i in (0, 2, 4))
+    lum = 0.2126 * r + 0.7152 * g + 0.0722 * b
+    if lum >= 95:
+        return "#" + m.group(1)
+    k = 0.55  # mix towards white
+    return "#%02x%02x%02x" % tuple(int(c + (255 - c) * k) for c in (r, g, b))
+
+
 def fmt(n):
     if n is None:
         return "—"
@@ -260,7 +273,7 @@ def languages(data, cfg):
     palette = [C["pink"], C["cyan"], C["blue"], C["gold"], "#a78bfa", "#34d399", "#fb923c", "#e879f9", "#94a3b8"]
     out = []
     for i, (name, size) in enumerate(ranked[:9]):
-        out.append((name, size / total, colors.get(name) or palette[i % len(palette)]))
+        out.append((name, size / total, readable(colors.get(name), palette[i % len(palette)])))
     rest = sum(size for _, size in ranked[9:])
     if rest:
         out.append(("Other", rest / total, "#334155"))
@@ -369,7 +382,7 @@ def build_svg(cfg, data):
             lx, ly = PAD + (i % 5) * cw, y + (i // 5) * 28
             parts.append(f'<circle cx="{lx + 5}" cy="{ly - 4}" r="4.5" fill="{color}"/>')
             parts.append(f'<text x="{lx + 16}" y="{ly}" fill="{C["text"]}" font-size="12.5" font-weight="700">{esc(name)}'
-                         f'<tspan fill="{C["dim"]}" font-weight="600" font-size="11"> {share*100:.0f}%</tspan></text>')
+                         f'<tspan fill="{C["dim"]}" font-weight="600" font-size="11"> {"<1" if share < 0.005 else f"{share*100:.0f}"}%</tspan></text>')
         y += 28 * ((len(langs) - 1) // 5) + 26
         parts.append(f'<line x1="{PAD}" y1="{y}" x2="{W-PAD}" y2="{y}" stroke="{C["line"]}"/>')
 
@@ -424,7 +437,7 @@ def build_svg(cfg, data):
                 parts.append(f'<text x="{x + 18:.1f}" y="{y + 62 + j * 17}" fill="{C["muted"]}" font-size="12">{esc(line)}</text>')
             parts.append(f'<line x1="{x + 18:.1f}" y1="{y + ch - 40}" x2="{x + cw - 18:.1f}" y2="{y + ch - 40}" stroke="{C["line"]}"/>')
             lang = r.get("language") or "—"
-            dot = r.get("language_color") or C["cyan"]
+            dot = readable(r.get("language_color"), C["cyan"])
             parts.append(f'<circle cx="{x + 23:.1f}" cy="{y + ch - 19}" r="4.5" fill="{dot}"/>')
             parts.append(f'<text x="{x + 34:.1f}" y="{y + ch - 15}" fill="{C["text"]}" font-size="12" font-weight="700">{esc(lang)}</text>')
             parts.append(f'<text x="{x + cw - 18:.1f}" y="{y + ch - 15}" text-anchor="end" fill="{C["dim"]}" font-size="12" font-weight="700">'
