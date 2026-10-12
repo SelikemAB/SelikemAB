@@ -13,6 +13,14 @@
       "tone": "cyan"
     },
     {
+      "label": "Splunk",
+      "tone": "gold"
+    },
+    {
+      "label": "Elastic",
+      "tone": "blue"
+    },
+    {
       "label": "MISP",
       "tone": "pink"
     },
