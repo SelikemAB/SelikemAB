@@ -21,6 +21,14 @@
       "tone": "blue"
     },
     {
+      "label": "Sigma",
+      "tone": "cyan"
+    },
+    {
+      "label": "MITRE ATT&CK",
+      "tone": "gold"
+    },
+    {
       "label": "MISP",
       "tone": "pink"
     },

@@ -192,7 +192,7 @@ def esc(text):
     return html.escape(str(text), quote=True)
 
 
-def text_width(text, size, spacing=0.0, bold=False):
+def text_width(text, size, spacing=0.0, bold=False, upper=0.66):
     """Rough width estimate for layout (no font metrics available in SVG)."""
     w = 0.0
     for ch in str(text):
@@ -201,7 +201,7 @@ def text_width(text, size, spacing=0.0, bold=False):
         elif ch in "mwMW@":
             f = 0.85
         elif ch.isupper() or ch.isdigit():
-            f = 0.66
+            f = upper
         elif ch == " ":
             f = 0.30
         else:
@@ -356,7 +356,8 @@ def build_svg(cfg, data):
 
     # ---- pills (wrap to several centred rows)
     y += 34
-    sized = [(p, text_width(p["label"], 12, 0.6, True) + 30) for p in cfg.get("pills", [])]
+    # capitals in 12px bold render narrower than the general estimate
+    sized = [(p, text_width(p["label"], 12, 0.6, True, upper=0.58) + 30) for p in cfg.get("pills", [])]
     full = sum(w for _, w in sized) + 10 * max(len(sized) - 1, 0)
     n_rows = max(1, -(-int(full) // int(INNER)))
     per_row = -(-len(sized) // n_rows) if sized else 0
