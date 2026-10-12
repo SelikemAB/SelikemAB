@@ -1,7 +1,3 @@
-<p align="center">
-  <a href="https://github.com/SelikemAB"><img src="https://komarev.com/ghpvc/?username=SelikemAB&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat-square" alt="Profile views" /></a>
-</p>
-
 <!-- assets/profile.svg is regenerated daily by .github/workflows/profile-svg.yml
      (text, pills and featured repos: .github/profile/config.json) -->
 <p align="center">
@@ -44,3 +40,7 @@
 </p>
 <p><a href="https://www.credly.com/users/selikemab/badges">View all on Credly</a></p>
 <!--END_SECTION:credly-->
+
+<p align="center">
+  <a href="https://github.com/SelikemAB"><img src="https://komarev.com/ghpvc/?username=SelikemAB&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat-square" alt="Profile views" /></a>
+</p>
