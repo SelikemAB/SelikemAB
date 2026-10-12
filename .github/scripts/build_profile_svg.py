@@ -25,6 +25,7 @@ import re
 import sys
 import urllib.error
 import urllib.request
+import xml.dom.minidom
 
 CONFIG = ".github/profile/config.json"
 OUT = "assets/profile.svg"
@@ -382,7 +383,7 @@ def build_svg(cfg, data):
             lx, ly = PAD + (i % 5) * cw, y + (i // 5) * 28
             parts.append(f'<circle cx="{lx + 5}" cy="{ly - 4}" r="4.5" fill="{color}"/>')
             parts.append(f'<text x="{lx + 16}" y="{ly}" fill="{C["text"]}" font-size="12.5" font-weight="700">{esc(name)}'
-                         f'<tspan fill="{C["dim"]}" font-weight="600" font-size="11"> {"<1" if share < 0.005 else f"{share*100:.0f}"}%</tspan></text>')
+                         f'<tspan fill="{C["dim"]}" font-weight="600" font-size="11"> {"&lt;1" if share < 0.005 else f"{share*100:.0f}"}%</tspan></text>')
         y += 28 * ((len(langs) - 1) // 5) + 26
         parts.append(f'<line x1="{PAD}" y1="{y}" x2="{W-PAD}" y2="{y}" stroke="{C["line"]}"/>')
 
@@ -501,6 +502,10 @@ def main():
         with open(args.dump, "w", encoding="utf-8") as fh:
             json.dump(data, fh, indent=1)
     svg = build_svg(cfg, data)
+    try:  # never commit a card GitHub can't render
+        xml.dom.minidom.parseString(svg.encode("utf-8"))
+    except Exception as exc:
+        sys.exit(f"generated SVG is not well-formed XML: {exc}")
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as fh:
         fh.write(svg)
